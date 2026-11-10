@@ -1,0 +1,216 @@
+﻿ID_transaccion,Fecha,Cliente,Region,Producto,Cantidad,Monto_USD,Estado,Ejecutivo
+TX1001,2025-10-29,Logística Regia,Norte,CloudLogix ERP,1,1200,En negociación,Ana Morales
+TX1002,2025-10-18,Logística Regia,Norte,LogixTrack Lite,4,1800,En negociación,Ana Morales
+TX1003,2025-10-19,Aceros del Norte,Norte,Soporte Premium,4,1200,En negociación,Ana Morales
+TX1004,2025-10-27,TechCorp SA,Norte,CloudLogix ERP,1,1200,Cerrada,Ana Morales
+TX1005,2025-10-07,Aceros del Norte,Norte,LogixTrack Lite,4,1800,Cerrada,Ana Morales
+TX1006,2025-10-24,Logística Regia,Norte,CloudLogix ERP,3,,En negociación,Ana Morales
+TX1007,2025-10-18,Aceros del Norte,Norte,LogixTrack Lite,3,1350,Cerrada,Ana Morales
+TX1008,2025-10-23,Logística Regia,Norte,CloudLogix ERP,2,2400,En negociación,Ana Morales
+TX1009,2025-10-12,Aceros del Norte,Norte,LogixTrack Lite,1,450,En negociación,Ana Morales
+TX1009,2025-10-12,Aceros del Norte,Norte,LogixTrack Lite,1,450,En negociación,Ana Morales
+TX1010,2025-10-19,Logística Regia,Norte,LogixTrack Lite,1,450,Cerrada,Ana Morales
+TX1011,2025-10-26,Logística Regia,Norte,LogixTrack Lite,1,450,Cerrada,Ana Morales
+TX1012,2025-10-09,Aceros del Norte,Norte,Soporte Premium,4,1200,Perdida,Ana Morales
+TX1013,26/10/2025,TechCorp SA,Norte,LogixTrack Lite,4,1800,Cerrada,Ana Morales
+TX1014,2025-10-23,Logística Regia,Norte,LogixTrack Lite,2,900,En negociación,Ana Morales
+TX1015,2025-10-14,Aceros del Norte,Norte,Soporte Premium,1,300,En negociación,Ana Morales
+TX1016,2025-10-04,Logística Regia,Norte,CloudLogix ERP,2,2400,En negociación,Ana Morales
+TX1017,2025-10-18,Aceros del Norte,Norte,Soporte Premium,4,1200,En negociación,Ana Morales
+TX1018,2025-10-21,Logística Regia,Norte,LogixTrack Lite,3,1350,Cerrada,Ana Morales
+TX1019,2025-10-10,Aceros del Norte,Norte,Soporte Premium,4,1200,Cerrada,Ana Morales
+TX1020,2025-10-20,Aceros del Norte,Norte,CloudLogix ERP,2,2400,Cerrada,Ana Morales
+TX1021,2025-10-07,Puerto Sureste,SUR,Implementación,1,2500,Cerrada,Luis Herrera
+TX1022,2025-10-27,Puerto Sureste,Sur,Soporte Premium,4,1200,Cerrada,Luis Herrera
+TX1023,2025-10-11,Puerto Sureste,Sur,Soporte Premium,1,300,Perdida,Luis Herrera
+TX1024,2025-10-23,Agrícola Maya,Sur,Soporte Premium,1,300,Cerrada,Luis Herrera
+TX1025,2025-10-27,Agrícola Maya,Sur,CloudLogix ERP,2,2400,Perdida,Luis Herrera
+TX1026,2025-10-29,Puerto Sureste,Sur,LogixTrack Lite,1,450,En negociación,Luis Herrera
+TX1027,2025-10-14,Grupo Alpha,Sur,CloudLogix ERP,2,2400,En negociación,Luis Herrera
+TX1028,2025-10-15,Agrícola Maya,Sur,LogixTrack Lite,1,450,Cerrada,Luis Herrera
+TX1029,2025-10-07,Grupo Alpha,Sur,LogixTrack Lite,1,450,En negociación,Luis Herrera
+TX1030,2025-10-09,Agrícola Maya,Sur,CloudLogix ERP,1,1200,Perdida,Luis Herrera
+TX1031,2025-10-11,Agrícola Maya,Sur,Soporte Premium,3,900,Cerrada,Luis Herrera
+TX1032,2025-10-05,Agrícola Maya,Sur,LogixTrack Lite,4,1800,En negociación,Luis Herrera
+TX1033,2025-10-29,Agrícola Maya,Sur,CloudLogix ERP,2,2400,Perdida,Luis Herrera
+TX1034,06/10/2025,Grupo Alpha,Sur,LogixTrack Lite,1,450,Cerrada,Luis Herrera
+TX1035,2025-10-05,Distribuidora Capital,Centro,CloudLogix ERP,4,4800,Cerrada,Sofía Castro
+TX1036,2025-10-04,Sistemas Omega,Centro,Soporte Premium,4,1200,Cerrada,Sofía Castro
+TX1037,2025-10-21,Sistemas Omega,Centro,Soporte Premium,1,300,En negociación,Sofía Castro
+TX1038,2025-10-01,Distribuidora Capital,Centro,Implementación,1,2500,Perdida,Sofía Castro
+TX1039,2025-10-30,Global Logistics,Centro,LogixTrack Lite,3,1350,Cerrada,Sofía Castro
+TX1040,2025-10-26,Global Logistics,Centro,LogixTrack Lite,4,1800,Cerrada,Sofía Castro
+TX1041,2025-10-11,Sistemas Omega,Centro,CloudLogix ERP,2,,Cerrada,Sofía Castro
+TX1042,2025-10-02,Global Logistics,Centro,LogixTrack Lite,1,450,Cerrada,Sofía Castro
+TX1043,2025-10-18,Global Logistics,Centro,LogixTrack Lite,2,900,Cerrada,Sofía Castro
+TX1044,2025-10-22,Global Logistics,Centro,LogixTrack Lite,2,900,Cerrada,Sofía Castro
+TX1045,2025-10-17,Global Logistics,Centro,CloudLogix ERP,2,2400,En negociación,Sofía Castro
+TX1046,2025-10-14,Distribuidora Capital,Centro,CloudLogix ERP,2,2400,Cerrada,Sofía Castro
+TX1047,2025-10-06,Sistemas Omega,Centro,LogixTrack Lite,1,450,Cerrada,Sofía Castro
+TX1048,2025-10-25,Sistemas Omega,Centro,CloudLogix ERP,4,4800,Cerrada,Sofía Castro
+TX1049,2025-10-16,Sistemas Omega,Centro,CloudLogix ERP,2,2400,Cerrada,Sofía Castro
+TX1050,2025-10-28,Global Logistics,Centro,CloudLogix ERP,3,3600,En negociación,Sofía Castro
+TX1051,2025-10-21,Sistemas Omega,Centro,CloudLogix ERP,1,1200,En negociación,Sofía Castro
+TX1052,2025-10-12,Global Logistics,Centro,LogixTrack Lite,2,900,Perdida,Sofía Castro
+TX1053,2025-10-23,Sistemas Omega,Centro,CloudLogix ERP,2,2400,Cerrada,Sofía Castro
+TX1054,2025-10-19,Sistemas Omega,Centro,LogixTrack Lite,2,900,Cerrada,Sofía Castro
+TX1055,2025-10-09,Global Logistics,Centro,LogixTrack Lite,2,900,Cerrada,Sofía Castro
+TX1056,2025-10-24,Innovate LLC,Occidente,CloudLogix ERP,1,1200,En negociación,Diego Ramos
+TX1056,2025-10-24,Innovate LLC,Occidente,CloudLogix ERP,1,1200,En negociación,Diego Ramos
+TX1057,2025-10-09,Tequilera Altos,Occidente,LogixTrack Lite,1,450,Cerrada,Diego Ramos
+TX1058,2025-10-06,Retail Express,Occidente,Soporte Premium,3,900,Perdida,Diego Ramos
+TX1059,2025-10-29,Retail Express,Occidente,CloudLogix ERP,1,1200,Cerrada,Diego Ramos
+TX1060,2025-10-08,Innovate LLC,Occidente,LogixTrack Lite,1,450,Cerrada,Diego Ramos
+TX1061,2025-10-19,Retail Express,Occidente,CloudLogix ERP,1,1200,Cerrada,Diego Ramos
+TX1062,2025-10-21,Tequilera Altos,Occidente,CloudLogix ERP,4,4800,Cerrada,Diego Ramos
+TX1063,2025-10-07,Tequilera Altos,Occidente,LogixTrack Lite,4,1800,Cerrada,Diego Ramos
+TX1064,2025-10-28,Tequilera Altos,Occidente,LogixTrack Lite,1,450,Cerrada,Diego Ramos
+TX1065,27/10/2025,Retail Express,Occidente,LogixTrack Lite,3,1350,Cerrada,Diego Ramos
+TX1066,2025-10-10,Tequilera Altos,Occidente,CloudLogix ERP,4,4800,En negociación,Diego Ramos
+TX1067,2025-10-14,Retail Express,Occidente,CloudLogix ERP,1,1200,Cerrada,Diego Ramos
+TX1068,2025-10-11,Innovate LLC,Occidente,LogixTrack Lite,1,450,Cerrada,Diego Ramos
+TX1069,2025-10-04,Innovate LLC,Occidente,LogixTrack Lite,1,450,Cerrada,Diego Ramos
+TX1070,2025-10-21,Retail Express,Occidente,CloudLogix ERP,3,3600,Cerrada,Diego Ramos
+TX1071,2025-10-13,Retail Express,Occidente,CloudLogix ERP,2,2400,Cerrada,Diego Ramos
+TX1072,2025-10-25,Innovate LLC,Occidente,CloudLogix ERP,4,4800,Cerrada,Diego Ramos
+TX1073,2025-11-26,TechCorp SA,Norte,LogixTrack Lite,4,1800,En negociación,Ana Morales
+TX1074,2025-11-16,Aceros del Norte,Norte,CloudLogix ERP,1,1200,Cerrada,Ana Morales
+TX1075,2025-11-21,Logística Regia,Norte,CloudLogix ERP,3,3600,Cerrada,Ana Morales
+TX1076,2025-11-21,Logística Regia,Norte,CloudLogix ERP,2,2400,Cerrada,Ana Morales
+TX1077,2025-11-25,Logística Regia,Norte,Soporte Premium,3,900,Cerrada,Ana Morales
+TX1078,2025-11-08,Aceros del Norte,Norte,CloudLogix ERP,1,,Cerrada,Ana Morales
+TX1079,2025-11-28,TechCorp SA,Norte,CloudLogix ERP,2,2400,Cerrada,Ana Morales
+TX1080,2025-11-13,Logística Regia,Norte,Implementación,1,2500,Perdida,Ana Morales
+TX1081,2025-11-08,Logística Regia,Norte,Implementación,1,2500,Perdida,Ana Morales
+TX1082,2025-11-12,Aceros del Norte,Norte,Soporte Premium,3,900,En negociación,Ana Morales
+TX1083,2025-11-16,Logística Regia,Norte,LogixTrack Lite,4,1800,Cerrada,Ana Morales
+TX1084,2025-11-14,TechCorp SA,Norte,LogixTrack Lite,2,900,Cerrada,Ana Morales
+TX1085,2025-11-27,Logística Regia,Norte,LogixTrack Lite,1,450,Perdida,Ana Morales
+TX1086,2025-11-03,Aceros del Norte,Norte,Soporte Premium,1,300,Cerrada,Ana Morales
+TX1087,2025-11-24,TechCorp SA,Norte,CloudLogix ERP,3,3600,Cerrada,Ana Morales
+TX1088,2025-11-07,Logística Regia,Norte,Implementación,1,2500,Cerrada,Ana Morales
+TX1089,2025-11-13,Logística Regia,NORTE,LogixTrack Lite,1,450,Perdida,Ana Morales
+TX1090,2025-11-21,Logística Regia,Norte,Implementación,1,2500,Cerrada,Ana Morales
+TX1091,2025-11-24,Aceros del Norte,Norte,CloudLogix ERP,1,1200,Cerrada,Ana Morales
+TX1092,2025-11-24,Logística Regia,Norte,CloudLogix ERP,3,3600,Cerrada,Ana Morales
+TX1093,2025-11-10,Aceros del Norte,Norte,LogixTrack Lite,2,900,Cerrada,Ana Morales
+TX1094,2025-11-07,Agrícola Maya,Sur,CloudLogix ERP,2,2400,Perdida,Luis Herrera
+TX1095,2025-11-12,Agrícola Maya,Sur,LogixTrack Lite,4,1800,Perdida,Luis Herrera
+TX1096,2025-11-18,Grupo Alpha,Sur,CloudLogix ERP,1,1200,Cerrada,Luis Herrera
+TX1097,2025-11-23,Agrícola Maya,Sur,CloudLogix ERP,1,1200,Cerrada,Luis Herrera
+TX1098,2025-11-10,Grupo Alpha,Sur,Soporte Premium,3,900,Cerrada,Luis Herrera
+TX1099,11/11/2025,Puerto Sureste,Sur,LogixTrack Lite,2,900,Cerrada,Luis Herrera
+TX1100,2025-11-20,Puerto Sureste,Sur,CloudLogix ERP,1,1200,Cerrada,Luis Herrera
+TX1101,2025-11-16,Grupo Alpha,Sur,LogixTrack Lite,3,1350,Cerrada,Luis Herrera
+TX1102,2025-11-22,Puerto Sureste,Sur,LogixTrack Lite,2,900,Perdida,Luis Herrera
+TX1102,2025-11-22,Puerto Sureste,Sur,LogixTrack Lite,2,900,Perdida,Luis Herrera
+TX1103,2025-11-25,Grupo Alpha,Sur,Soporte Premium,3,900,Cerrada,Luis Herrera
+TX1104,2025-11-22,Grupo Alpha,Sur,Soporte Premium,3,900,Cerrada,Luis Herrera
+TX1105,2025-11-11,Puerto Sureste,Sur,CloudLogix ERP,4,4800,Cerrada,Luis Herrera
+TX1106,2025-11-06,Grupo Alpha,Sur,Soporte Premium,4,1200,Cerrada,Luis Herrera
+TX1107,2025-11-12,Puerto Sureste,Sur,Soporte Premium,2,600,Perdida,Luis Herrera
+TX1108,2025-11-15,Distribuidora Capital,Centro,Soporte Premium,4,1200,Cerrada,Sofía Castro
+TX1109,2025-11-11,Global Logistics,Centro,LogixTrack Lite,2,900,Cerrada,Sofía Castro
+TX1110,2025-11-18,Distribuidora Capital,Centro,CloudLogix ERP,4,4800,Cerrada,Sofía Castro
+TX1111,2025-11-18,Global Logistics,Centro,CloudLogix ERP,3,3600,Perdida,Sofía Castro
+TX1112,2025-11-13,Global Logistics,Centro,CloudLogix ERP,4,4800,Cerrada,Sofía Castro
+TX1113,2025-11-11,Global Logistics,Centro,LogixTrack Lite,3,1350,Cerrada,Sofía Castro
+TX1114,2025-11-28,Distribuidora Capital,Centro,LogixTrack Lite,4,1800,Perdida,Sofía Castro
+TX1115,2025-11-18,Distribuidora Capital,Centro,Implementación,1,2500,Cerrada,Sofía Castro
+TX1116,2025-11-02,Sistemas Omega,Centro,CloudLogix ERP,3,3600,Cerrada,Sofía Castro
+TX1117,2025-11-23,Sistemas Omega,Centro,Soporte Premium,1,300,Cerrada,Sofía Castro
+TX1118,2025-11-26,Sistemas Omega,Centro,CloudLogix ERP,4,4800,En negociación,Sofía Castro
+TX1119,2025-11-02,Global Logistics,Centro,Soporte Premium,4,1200,Cerrada,Sofía Castro
+TX1120,2025-11-25,Global Logistics,Centro,LogixTrack Lite,3,1350,Cerrada,Sofía Castro
+TX1121,2025-11-12,Global Logistics,Centro,Soporte Premium,3,,Cerrada,Sofía Castro
+TX1122,2025-11-01,Global Logistics,Centro,LogixTrack Lite,2,900,Cerrada,Sofía Castro
+TX1123,2025-11-07,Distribuidora Capital,Centro,CloudLogix ERP,2,2400,Perdida,Sofía Castro
+TX1124,2025-11-14,Distribuidora Capital,Centro,LogixTrack Lite,3,1350,Cerrada,Sofía Castro
+TX1125,2025-11-09,Sistemas Omega,Centro,LogixTrack Lite,2,900,Cerrada,Sofía Castro
+TX1126,2025-11-16,Distribuidora Capital,Centro,CloudLogix ERP,2,2400,Perdida,Sofía Castro
+TX1127,2025-11-20,Sistemas Omega,Centro,LogixTrack Lite,3,1350,Cerrada,Sofía Castro
+TX1128,2025-11-02,Tequilera Altos,Occidente,LogixTrack Lite,3,1350,En negociación,Diego Ramos
+TX1129,2025-11-12,Retail Express,Occidente,LogixTrack Lite,1,450,Cerrada,Diego Ramos
+TX1130,2025-11-09,Tequilera Altos,Occidente,Soporte Premium,4,1200,Cerrada,Diego Ramos
+TX1131,2025-11-19,Innovate LLC,Occidente,Soporte Premium,4,1200,Cerrada,Diego Ramos
+TX1132,21/11/2025,Tequilera Altos,Occidente,Soporte Premium,1,300,En negociación,Diego Ramos
+TX1133,2025-11-20,Innovate LLC,Occidente,LogixTrack Lite,3,1350,Perdida,Diego Ramos
+TX1134,2025-11-22,Retail Express,Occidente,Soporte Premium,3,900,Cerrada,Diego Ramos
+TX1135,2025-11-28,Innovate LLC,Occidente,CloudLogix ERP,1,1200,Perdida,Diego Ramos
+TX1136,2025-11-20,Innovate LLC,Occidente,Soporte Premium,4,1200,Cerrada,Diego Ramos
+TX1137,2025-11-17,Tequilera Altos,Occidente,CloudLogix ERP,2,2400,Cerrada,Diego Ramos
+TX1138,2025-11-09,Tequilera Altos,Occidente,CloudLogix ERP,2,2400,En negociación,Diego Ramos
+TX1139,2025-11-21,Retail Express,Occidente,LogixTrack Lite,3,1350,Cerrada,Diego Ramos
+TX1140,2025-11-18,Tequilera Altos,Occidente,LogixTrack Lite,2,900,Cerrada,Diego Ramos
+TX1141,2025-11-05,Tequilera Altos,OCCIDENTE,Implementación,1,2500,En negociación,Diego Ramos
+TX1142,2025-11-10,Innovate LLC,Occidente,LogixTrack Lite,1,450,Cerrada,Diego Ramos
+TX1143,2025-11-06,Innovate LLC,Occidente,CloudLogix ERP,3,3600,Cerrada,Diego Ramos
+TX1144,2025-12-20,Aceros del Norte,Norte,Soporte Premium,2,600,Cerrada,Ana Morales
+TX1145,2025-12-17,Aceros del Norte,Norte,Soporte Premium,1,300,Cerrada,Ana Morales
+TX1146,2025-12-24,Aceros del Norte,Norte,Soporte Premium,1,300,Cerrada,Ana Morales
+TX1147,2025-12-17,TechCorp SA,Norte,CloudLogix ERP,3,3600,Cerrada,Ana Morales
+TX1148,2025-12-19,Logística Regia,Norte,LogixTrack Lite,1,450,Cerrada,Ana Morales
+TX1149,2025-12-01,TechCorp SA,Norte,Soporte Premium,3,900,Cerrada,Ana Morales
+TX1150,2025-12-14,TechCorp SA,Norte,LogixTrack Lite,1,450,Cerrada,Ana Morales
+TX1151,2025-12-22,Aceros del Norte,Norte,Soporte Premium,2,,Cerrada,Ana Morales
+TX1152,2025-12-28,Aceros del Norte,Norte,CloudLogix ERP,2,2400,Cerrada,Ana Morales
+TX1153,2025-12-23,TechCorp SA,Norte,Soporte Premium,4,1200,En negociación,Ana Morales
+TX1154,2025-12-15,Logística Regia,Norte,Implementación,1,2500,Cerrada,Ana Morales
+TX1155,2025-12-07,Logística Regia,Norte,LogixTrack Lite,1,450,En negociación,Ana Morales
+TX1156,2025-12-22,Logística Regia,Norte,CloudLogix ERP,1,1200,Cerrada,Ana Morales
+TX1157,2025-12-21,Aceros del Norte,Norte,LogixTrack Lite,1,450,Cerrada,Ana Morales
+TX1158,2025-12-05,Logística Regia,Norte,CloudLogix ERP,4,4800,Cerrada,Ana Morales
+TX1159,2025-12-12,Aceros del Norte,Norte,Soporte Premium,3,900,Cerrada,Ana Morales
+TX1160,2025-12-27,Aceros del Norte,Norte,CloudLogix ERP,4,4800,En negociación,Ana Morales
+TX1161,2025-12-05,Logística Regia,Norte,LogixTrack Lite,2,900,Cerrada,Ana Morales
+TX1161,2025-12-05,Logística Regia,Norte,LogixTrack Lite,2,900,Cerrada,Ana Morales
+TX1162,2025-12-20,Logística Regia,Norte,CloudLogix ERP,3,3600,Cerrada,Ana Morales
+TX1163,2025-12-22,TechCorp SA,Norte,LogixTrack Lite,3,1350,En negociación,Ana Morales
+TX1164,2025-12-10,Grupo Alpha,Sur,LogixTrack Lite,1,450,Perdida,Luis Herrera
+TX1165,2025-12-30,Puerto Sureste,Sur,CloudLogix ERP,1,1200,Cerrada,Luis Herrera
+TX1166,2025-12-26,Agrícola Maya,Sur,LogixTrack Lite,4,1800,Perdida,Luis Herrera
+TX1167,2025-12-18,Grupo Alpha,Sur,Implementación,1,2500,En negociación,Luis Herrera
+TX1168,2025-12-04,Puerto Sureste,Sur,CloudLogix ERP,3,3600,Cerrada,Luis Herrera
+TX1169,2025-12-02,Agrícola Maya,Sur,CloudLogix ERP,3,3600,Cerrada,Luis Herrera
+TX1170,2025-12-17,Grupo Alpha,Sur,Implementación,1,2500,Perdida,Luis Herrera
+TX1171,10/12/2025,Puerto Sureste,Sur,Soporte Premium,3,900,En negociación,Luis Herrera
+TX1172,2025-12-13,Grupo Alpha,Sur,CloudLogix ERP,4,4800,En negociación,Luis Herrera
+TX1173,2025-12-16,Grupo Alpha,Sur,LogixTrack Lite,3,1350,Cerrada,Luis Herrera
+TX1174,2025-12-04,Agrícola Maya,Sur,LogixTrack Lite,4,1800,Cerrada,Luis Herrera
+TX1175,2025-12-01,Puerto Sureste,Sur,LogixTrack Lite,4,1800,Cerrada,Luis Herrera
+TX1176,2025-12-02,Agrícola Maya,Sur,Implementación,1,2500,Cerrada,Luis Herrera
+TX1177,2025-12-17,Sistemas Omega,Centro,Soporte Premium,3,900,Cerrada,Sofía Castro
+TX1178,2025-12-19,Global Logistics,Centro,CloudLogix ERP,4,4800,En negociación,Sofía Castro
+TX1179,2025-12-04,Distribuidora Capital,Centro,CloudLogix ERP,2,2400,Perdida,Sofía Castro
+TX1180,2025-12-18,Global Logistics,Centro,CloudLogix ERP,2,2400,Cerrada,Sofía Castro
+TX1181,2025-12-26,Sistemas Omega,Centro,LogixTrack Lite,1,450,En negociación,Sofía Castro
+TX1182,2025-12-02,Sistemas Omega,Centro,LogixTrack Lite,1,450,Cerrada,Sofía Castro
+TX1183,2025-12-30,Sistemas Omega,Centro,Soporte Premium,2,600,Cerrada,Sofía Castro
+TX1184,2025-12-02,Global Logistics,Centro,CloudLogix ERP,2,2400,Perdida,Sofía Castro
+TX1185,2025-12-18,Distribuidora Capital,Centro,Soporte Premium,1,300,En negociación,Sofía Castro
+TX1186,2025-12-17,Distribuidora Capital,Centro,CloudLogix ERP,4,4800,En negociación,Sofía Castro
+TX1187,2025-12-29,Global Logistics,Centro,Implementación,1,2500,Perdida,Sofía Castro
+TX1188,2025-12-03,Global Logistics,Centro,LogixTrack Lite,4,1800,Cerrada,Sofía Castro
+TX1189,2025-12-10,Distribuidora Capital,Centro,LogixTrack Lite,3,1350,Cerrada,Sofía Castro
+TX1190,2025-12-03,Distribuidora Capital,Centro,LogixTrack Lite,4,1800,Perdida,Sofía Castro
+TX1191,2025-12-17,Distribuidora Capital,Centro,Soporte Premium,2,600,Cerrada,Sofía Castro
+TX1192,2025-12-18,Sistemas Omega,Centro,LogixTrack Lite,4,1800,En negociación,Sofía Castro
+TX1193,2025-12-08,Global Logistics,Centro,CloudLogix ERP,4,4800,Cerrada,Sofía Castro
+TX1194,2025-12-15,Distribuidora Capital,Centro,CloudLogix ERP,4,4800,Cerrada,Sofía Castro
+TX1195,2025-12-18,Global Logistics,Centro,LogixTrack Lite,2,900,Cerrada,Sofía Castro
+TX1196,2025-12-21,Distribuidora Capital,Centro,LogixTrack Lite,3,1350,Cerrada,Sofía Castro
+TX1197,2025-12-24,Innovate LLC,Occidente,LogixTrack Lite,1,450,Cerrada,Diego Ramos
+TX1198,2025-12-17,Innovate LLC,Occidente,Implementación,1,2500,Cerrada,Diego Ramos
+TX1199,2025-12-05,Tequilera Altos,Occidente,Soporte Premium,4,1200,En negociación,Diego Ramos
+TX1200,2025-12-04,Innovate LLC,Occidente,Soporte Premium,2,600,Cerrada,Diego Ramos
+TX1201,2025-12-23,Retail Express,Occidente,CloudLogix ERP,4,4800,Cerrada,Diego Ramos
+TX1202,2025-12-12,Innovate LLC,Occidente,LogixTrack Lite,3,1350,Cerrada,Diego Ramos
+TX1203,2025-12-08,Innovate LLC,Occidente,Soporte Premium,1,300,Cerrada,Diego Ramos
+TX1204,2025-12-20,Tequilera Altos,Occidente,CloudLogix ERP,2,2400,Perdida,Diego Ramos
+TX1205,2025-12-18,Innovate LLC,Occidente,LogixTrack Lite,2,900,Cerrada,Diego Ramos
+TX1206,2025-12-24,Innovate LLC,Occidente,Implementación,1,2500,Cerrada,Diego Ramos
+TX1207,2025-12-16,Innovate LLC,Occidente,Soporte Premium,1,300,Cerrada,Diego Ramos
+TX1208,2025-12-05,Innovate LLC,Occidente,LogixTrack Lite,4,1800,Cerrada,Diego Ramos
+TX1209,2025-12-09,Innovate LLC,Occidente,LogixTrack Lite,3,1350,Cerrada,Diego Ramos
+TX1210,2025-12-13,Tequilera Altos,Occidente,LogixTrack Lite,3,1350,Perdida,Diego Ramos
+TX1211,2025-12-04,Innovate LLC,Occidente,LogixTrack Lite,4,1800,Cerrada,Diego Ramos

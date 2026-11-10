@@ -1,0 +1,11 @@
+﻿cliente,monto_usd,etapa,probabilidad_cierre,fecha_ultimo_contacto,dias_sin_contacto,contacto_cliente,ejecutivo_responsable
+Logística del Norte S.A.,150000,Negociación,80,2026-10-12,18,Carlos Méndez,Ana Morales
+Retail Intercontinental,45000,Propuesta,40,2026-10-27,3,Ana Martínez,Luis Herrera
+Corporativo Vallarta,220000,Demostración,90,2026-10-08,22,Roberto Ruiz,Ana Morales
+Servicios Integrales Alpha,35000,Calificación,20,2026-10-29,1,Sofía Gómez,Luis Herrera
+Industrias Metalúrgicas del Pacífico,310000,Negociación,75,2026-10-05,25,Fernando Torres,Sofía Castro
+Tecnologías de Salud Global,85000,Propuesta,60,2026-10-18,12,Lucía Morales,Sofía Castro
+Agroexportadora del Bajío,175000,Propuesta,65,2026-10-24,6,Martín Arellano,Ana Morales
+Farmacéutica Andina,62000,Negociación,85,2026-10-13,17,Patricia Lozano,Luis Herrera
+Constructora Sierra Madre,28000,Calificación,30,2026-09-20,40,Jorge Salinas,Sofía Castro
+Distribuidora Peninsular,98000,Demostración,50,2026-10-21,9,Diana Cervera,Luis Herrera

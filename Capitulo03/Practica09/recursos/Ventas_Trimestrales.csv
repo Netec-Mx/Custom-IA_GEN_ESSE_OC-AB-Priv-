@@ -1,0 +1,11 @@
+﻿ID_transaccion,Region,Producto,Ventas_Q1_2025,Ventas_Q1_2026,Costo_operativo_Q1_2026,Clientes_activos
+TRX-101,Norte,CloudLogix ERP,12000,15500,8000,45
+TRX-102,Sur,LogixTrack Lite,4500,3200,2500,12
+TRX-103,Norte,CloudLogix ERP,15000,18200,9500,58
+TRX-104,Centro,LogixTrack Lite,3800,4000,2200,15
+TRX-105,Sur,CloudLogix ERP,11000,8900,8500,30
+TRX-106,Centro,CloudLogix ERP,14000,17500,9000,62
+TRX-107,Norte,LogixTrack Lite,4100,3500,2800,11
+TRX-108,Sur,CloudLogix ERP,10500,8100,8000,28
+TRX-109,Centro,LogixTrack Lite,3900,4200,2100,18
+TRX-110,Norte,CloudLogix ERP,16000,19800,10000,70
