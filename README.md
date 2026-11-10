@@ -1,36 +1,14 @@
-<p align="center">
-  <img src="assets/LogoNetec.png" alt="NETEC" width="300" />
-</p>
+<a href="https://netec.com">
+  <img src="https://static.wixstatic.com/media/96edd2_934dddb3230b4b16b1d1c56c51143738~mv2.png" alt="Logo de Netec" width="300"/>
+</a>
 
 # Inteligencia Artificial Generativa Essentials aplicada a la Operación Comercial
 
-**Custom IA_GEN_ESSE_OC AB (Priv)** · Duración: 8 horas
+**Custom IA_GEN_ESSE_OC AB (Priv)** 
 
 ## Plataforma de laboratorios
 
 Te damos la bienvenida a la **plataforma de laboratorios** del curso **Inteligencia Artificial Generativa Essentials aplicada a la Operación Comercial**. Aquí podrás explorar diferentes tecnologías a través de prácticas guiadas. ¡Desarrolla tus habilidades y lleva tus conocimientos al siguiente nivel!
-
-## Descripción del curso
-
-Este curso proporciona una introducción práctica al uso de la Inteligencia Artificial para optimizar los procesos de atención, seguimiento, control y automatización dentro de la operación comercial. A lo largo del curso, los participantes conocerán los fundamentos de la IA Generativa, aprenderán a diseñar prompts efectivos e integrarán herramientas como Microsoft Copilot, ChatGPT, Claude, Gemini y plataformas de automatización como n8n para agilizar actividades comerciales, analizar información, automatizar procesos repetitivos y fortalecer la toma de decisiones mediante asistentes inteligentes.
-
-## Objetivos del curso
-
-Al finalizar el curso, el participante será capaz de:
-
-1. Comprender los fundamentos de la Inteligencia Artificial Generativa y su aplicación en la operación comercial.
-2. Diseñar prompts efectivos para automatizar tareas y mejorar la interacción con asistentes inteligentes.
-3. Aplicar herramientas de Inteligencia Artificial para optimizar procesos de atención, seguimiento y control comercial.
-4. Analizar información comercial para identificar tendencias, riesgos y oportunidades de mejora mediante IA.
-5. Diseñar automatizaciones básicas utilizando plataformas Low-Code para reducir actividades repetitivas y fortalecer el control operativo.
-
-## Perfil de audiencia
-
-Personal de ventas, atención al cliente, operación comercial, desarrollo de negocios, coordinación comercial y áreas administrativas relacionadas con procesos comerciales que buscan incorporar herramientas de Inteligencia Artificial para mejorar la productividad, automatizar procesos y fortalecer el control operativo, sin necesidad de experiencia previa en programación.
-
-## Prerrequisitos
-
-No se requieren conocimientos previos en programación o Inteligencia Artificial. Se recomienda experiencia básica en procesos comerciales y el uso cotidiano de herramientas como correo electrónico, hojas de cálculo y procesadores de texto.
 
 ## Lista de laboratorios
 
@@ -101,44 +79,6 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
   - **Módulo 6:** Aplicación de plataformas de IA en la operación comercial.
   - **Descripción**: expediente de 4 documentos, matriz de inconsistencias, verificación de citas e informe consolidado.
   - ⏱️ **Duración estimada**: 15 min.
-
-### Distribución del tiempo
-
-| Capítulo | Módulo | Duración del módulo | Prácticas |
-| --- | --- | --- | --- |
-| 1 | 1. Introducción a la Inteligencia Artificial Generativa | 40 min | Sin práctica |
-| 1 | 2. Inteligencia Artificial aplicada al proceso comercial | 70 min | Práctica 1 (42 min) |
-| 1 | 3. Seguridad y Ética en la Era de la IA | 60 min | Prácticas 2 y 3 (18 + 18 min) |
-| 2 | 4. Fundamentos de la ingeniería de prompts | 60 min | Prácticas 4 y 5 (16 + 20 min) |
-| 2 | 5. Automatización de procesos comerciales mediante IA y n8n | 120 min | Prácticas 6 y 7 (36 + 36 min) |
-| 3 | 6. Aplicación de plataformas de IA en la operación comercial | 130 min | Prácticas 8 a 12 (15 + 16 + 16 + 16 + 15 min) |
-| **Total** | | **480 min (8 h)** | **264 min** |
-
-## Instrucciones generales del laboratorio
-
-1. Antes del curso, preparar las cuentas y los accesos con la [Guía de configuración](Setup_Guide.md). Las prácticas no requieren programación ni terminal.
-2. Cada práctica tiene su carpeta `recursos` con los archivos listos para descargar. Guardar el trabajo en `Documentos\Practicas_IA_Comercial\PracticaNN`.
-3. Todas las empresas, personas y cifras de los archivos son ficticias. No cargar información real de clientes en las herramientas de IA durante las prácticas.
-4. Las prácticas se diseñaron para versiones gratuitas; no es obligatorio adquirir licencias Premium. Criterios de uso:
-   - **Herramientas obligatorias solo en los módulos 5 y 6:** n8n (prácticas 6 y 7) y las plataformas del temario (prácticas 8 a 12: ChatGPT, Copilot, Claude, Gemini y NotebookLM), porque forman parte de los objetivos del módulo.
-   - **Módulos 1 a 4 (prácticas 1 a 5):** el instructor elige la herramienta de IA según sus capacidades, disponibilidad y límites de consumo.
-   - **Copilot con Word, Excel y PowerPoint:** se usa Microsoft Copilot Chat gratuito mediante la carga de archivos, sin licencia Premium ni Copilot integrado en las aplicaciones de Office. Copilot genera el contenido o los entregables descargables.
-   - **Limitaciones de las versiones gratuitas:** en todas las prácticas el instructor puede simplificar los escenarios, usar conjuntos de datos más pequeños o ajustar la profundidad y la extensión, conservando los objetivos de aprendizaje y los resultados esperados.
-
-## Estructura del repositorio
-
-```text
-.
-├── README.md                 Página principal (este archivo)
-├── Setup_Guide.md            Guía de configuración del entorno
-├── assets/                   Logotipo
-├── Capitulo01/               Prácticas 1 a 3 (módulos 1 a 3)
-│   └── PracticaNN/
-│       ├── README.md         Instrucciones de la práctica
-│       └── recursos/         Archivos de la práctica
-├── Capitulo02/               Prácticas 4 a 7 (módulos 4 y 5)
-└── Capitulo03/               Prácticas 8 a 12 (módulo 6)
-```
 
 ---
 
