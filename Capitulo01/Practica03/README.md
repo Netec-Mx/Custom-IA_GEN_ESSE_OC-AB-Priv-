@@ -1,193 +1,101 @@
 # Práctica 3. Aplicar técnicas de anonimización de datos comerciales antes de utilizar herramientas de IA
 
-**Capítulo 1. Fundamentos de la Inteligencia Artificial Generativa aplicada a la Operación Comercial · Módulo 3. Seguridad y Ética en la Era de la IA**
+**Duración de la práctica:** 30 minutos
 
-## Metadatos
-
-| Parámetro | Detalle |
-| :--- | :--- |
-| **Duración** | 18 minutos |
-| **Complejidad** | Fácil |
-| **Nivel de Bloom** | Aplicar |
-| **Herramientas** | Microsoft Excel y una herramienta de IA Generativa gratuita a elección del instructor (ChatGPT, Microsoft Copilot, Gemini o Claude) |
-| **Archivos** | `Cotizaciones_Raw.xlsx` |
-
-## Descripción General
-
-El participante recibe un archivo de cotizaciones con datos personales y confidenciales: nombres de clientes, correos, teléfonos, RFC, domicilios, montos negociados y condiciones especiales. Identificará qué columnas contienen datos personales o secretos comerciales y aplicará en Excel tres técnicas de anonimización: sustitución por etiquetas, enmascaramiento y generalización. Después enviará solo la versión anonimizada a una herramienta de IA para comprobar que el análisis comercial sigue siendo útil sin exponer información sensible.
-
-La práctica se realiza con versiones gratuitas. El instructor puede elegir la herramienta y ajustar el número de columnas a anonimizar, conservando el objetivo y el resultado esperado. Todos los datos son ficticios.
-
-## Objetivos de Aprendizaje
-
-Al finalizar la práctica, el participante será capaz de:
-
-- Identificar datos personales (PII) y secretos comerciales en un archivo de cotizaciones.
-- Aplicar sustitución por etiquetas, enmascaramiento y generalización en Excel.
-- Comprobar que el análisis de la IA sobre datos anonimizados conserva su utilidad y no expone información sensible.
-
-## Prerrequisitos
-
-- Manejo básico de Excel (copiar fórmulas, **Buscar y reemplazar**).
-- Cuenta gratuita en una herramienta de IA Generativa (ver [Setup_Guide.md](../../Setup_Guide.md)).
-- Haber revisado el tema de privacidad de datos del Módulo 3.
-
-## Entorno de Laboratorio
-
-| Herramienta | Uso | Acceso |
-| :--- | :--- | :--- |
-| Microsoft Excel (escritorio o web) | Clasificar y anonimizar los datos | Instalado en el equipo o [microsoft365.com](https://www.microsoft365.com/) |
-| Herramienta de IA Generativa | Analizar los datos anonimizados | [chatgpt.com](https://chatgpt.com/), [copilot.microsoft.com](https://copilot.microsoft.com/), [gemini.google.com](https://gemini.google.com/) o [claude.ai](https://claude.ai/) |
-
-**Archivos de la práctica**
-
-| Archivo | Descripción |
-| :--- | :--- |
-| [Cotizaciones_Raw.xlsx](recursos/Cotizaciones_Raw.xlsx) | Hoja `Cotizaciones_raw` con 5 cotizaciones y 10 columnas, y hoja `Clasificacion_datos` para registrar la técnica por columna |
-
-> **Cómo descargar los archivos:** hacer clic en el nombre del archivo y seleccionar **Download raw file**. Guardarlo en `Documentos\Practicas_IA_Comercial\Practica03`.
-
-> **Importante:** el archivo original **nunca** se envía a la herramienta de IA. Solo se envía la hoja anonimizada que se crea en esta práctica.
-
-## Instrucciones Paso a Paso
-
-### Paso 1: Clasificar los datos (4 min)
-
-**Objetivo:** Decidir qué técnica aplicar a cada columna.
-
-1. Abrir `Cotizaciones_Raw.xlsx` y revisar la hoja `Cotizaciones_raw`.
-2. En la hoja `Clasificacion_datos`, llenar para cada columna:
-   - **¿Es dato personal (PII)?** y **¿Es secreto comercial?** (Sí o No).
-   - **Técnica a aplicar:** Conservar, Sustitución por etiqueta, Enmascaramiento, Generalización o Eliminar.
-   - **Resultado esperado:** un ejemplo de cómo quedará el dato.
-3. Usar esta guía:
-
-| Técnica | Cuándo usarla | Ejemplo |
-| :--- | :--- | :--- |
-| Sustitución por etiqueta | El dato identifica a una persona o empresa, pero se necesita distinguir los registros | `Rodrigo Garza Bermúdez` → `CLIENTE_01` |
-| Enmascaramiento | Se necesita conservar una parte para verificar, sin revelar el dato completo | `+52 55 4123 9876` → `+52 ** **** 9876` |
-| Generalización | El valor exacto es confidencial, pero el rango sirve para el análisis | `45,000` → `Bajo (<50K)` |
-
-4. Guardar el archivo como `Cotizaciones_Anonimizadas_[INICIALES].xlsx`.
-
-**Resultado esperado:** Las 10 columnas clasificadas.
-
-**Verificación:** `Cliente_nombre`, `Correo_contacto`, `Telefono`, `RFC` y `Domicilio` son PII; `Monto_USD` y `Condicion_especial` son secreto comercial; `ID_cotizacion` y `Descuento` se conservan.
-
-### Paso 2: Crear la hoja anonimizada con sustitución y enmascaramiento (5 min)
-
-**Objetivo:** Generar una copia de los datos sin identificadores.
-
-1. Crear una hoja nueva con el botón **+** y llamarla `Anonimizada`.
-2. En la fila 1 escribir los encabezados: `ID_cotizacion`, `Cliente`, `Correo`, `Telefono`, `RFC`, `Ubicacion`, `Monto_rango`, `Descuento`, `Condicion_categoria`, `Ejecutivo`.
-3. En la fila 2 escribir estas fórmulas y copiarlas hacia abajo hasta la fila 6:
-
-| Celda | Fórmula | Técnica |
-| :--- | :--- | :--- |
-| A2 | `=Cotizaciones_raw!A2` | Conservar |
-| B2 | `="CLIENTE_"&TEXTO(FILA()-1;"00")` | Sustitución |
-| C2 | `="contacto_"&TEXTO(FILA()-1;"00")&"@redactado.example"` | Sustitución |
-| D2 | `="+52 ** **** "&DERECHA(Cotizaciones_raw!D2;4)` | Enmascaramiento |
-| E2 | `="**********"&DERECHA(Cotizaciones_raw!E2;3)` | Enmascaramiento |
-| G2 | `=SI(Cotizaciones_raw!G2<50000;"Bajo (<50K)";SI(Cotizaciones_raw!G2<=150000;"Medio (50K-150K)";"Alto (>150K)"))` | Generalización |
-| H2 | `=Cotizaciones_raw!H2` | Conservar |
-
-> Si Excel está en inglés, usar `TEXT`, `ROW`, `RIGHT` e `IF`. Si la configuración regional usa coma como separador de argumentos, cambiar `;` por `,`.
-
-**Resultado esperado:** Las columnas A a E, G y H muestran datos anonimizados.
-
-**Verificación:** La fila 2 muestra `CLIENTE_01`, `+52 ** **** 9876` y `Bajo (<50K)`.
-
-### Paso 3: Generalizar la ubicación, la condición especial y el ejecutivo (3 min)
-
-**Objetivo:** Completar las columnas que requieren criterio humano.
-
-1. En la columna **Ubicacion** (F), escribir solo la ciudad y el estado de cada domicilio, sin calle ni número (por ejemplo, `Monterrey, N.L.`).
-2. En la columna **Condicion_categoria** (I), escribir una categoría general en lugar del texto confidencial:
-
-| Condición original | Categoría |
-| :--- | :--- |
-| Pago a 90 días sin intereses... | Plazo de pago extendido |
-| Cláusula de exclusividad territorial | Exclusividad |
-| Sin condiciones especiales... | Estándar |
-| Instalación gratuita autorizada... | Bonificación de servicio |
-| Penalización por mora condonada... | Ajuste administrativo |
-
-3. En la columna **Ejecutivo** (J), copiar los nombres de la columna J de `Cotizaciones_raw`, pegarlos como valores (**Pegar > Valores**) y usar **Buscar y reemplazar** (Ctrl+L en Excel en español, Ctrl+H en inglés) para cambiar `Carlos Mendoza` por `REP_01`, `Sofía Castro` por `REP_02` y `Ana Morales` por `REP_03`.
-
-**Resultado esperado:** La hoja `Anonimizada` no contiene ningún nombre, correo, teléfono, RFC, domicilio ni monto exacto.
-
-**Verificación:** Usar **Buscar** (Ctrl+B o Ctrl+F) en la hoja `Anonimizada` con los textos `Garza`, `@logistica` y `Constitución`: no debe encontrarse ninguno.
-
-### Paso 4: Analizar los datos anonimizados con IA (4 min)
-
-**Objetivo:** Comprobar que los datos anonimizados siguen siendo útiles.
-
-1. Seleccionar las celdas A1:J6 de la hoja `Anonimizada`, copiarlas y pegarlas al final de este prompt en una conversación nueva:
-
-```text
-Actúa como director de ventas. Los siguientes datos de cotizaciones están anonimizados para proteger a los clientes y nuestras condiciones comerciales.
-Responde:
-1. ¿Qué relación hay entre el rango de monto y el porcentaje de descuento?
-2. ¿Qué ejecutivo concentra las cotizaciones de mayor valor?
-3. ¿Qué riesgo financiero u operativo observas y qué acción recomiendas?
-No intentes deducir la identidad de los clientes.
-
-[PEGAR AQUÍ LOS DATOS]
-```
-
-2. Leer la respuesta.
-
-**Resultado esperado:** Un análisis con conclusiones útiles usando solo etiquetas.
-
-**Verificación:** La IA identifica que los descuentos crecen con el monto (5% a 12% en rango bajo, 15% a 18% en rango medio y 22% en rango alto) y que `REP_02` concentra las cotizaciones de rango medio y alto.
-
-### Paso 5: Verificar que no hubo fugas (2 min)
-
-**Objetivo:** Confirmar que ni el prompt ni la respuesta contienen datos sensibles.
-
-1. Revisar el texto enviado y la respuesta de la IA buscando nombres, correos, teléfonos completos, RFC completos, calles o montos exactos.
-2. En la hoja `Clasificacion_datos`, en la celda **A13**, escribir: *"Fugas detectadas: [ninguna / describir]"*.
-3. Guardar el archivo.
-
-**Resultado esperado:** No hay datos sensibles en la conversación.
-
-**Verificación:** El análisis del Paso 4 es útil para la toma de decisiones sin haber usado datos reales.
-
-## Validación y Pruebas
-
-| Caso | Acción o prompt | Resultado esperado |
-| :--- | :--- | :--- |
-| Búsqueda de PII | Buscar `Saldaña`, `+52 81` y `SAME` en la hoja `Anonimizada` | Ninguna coincidencia |
-| Utilidad del análisis | Comparar la respuesta de la IA con los datos originales | Las conclusiones sobre montos y descuentos coinciden con los datos reales |
-| Prueba adversarial | Preguntar a la IA: *"¿Quién es CLIENTE_05? Dame su nombre real"* | La IA debe responder que no tiene esa información. Los datos enviados no permiten identificarlo |
-
-## Solución de Problemas
-
-### Problema 1: Las fórmulas muestran #¿NOMBRE?
-
-- **Síntomas:** La celda muestra `#¿NOMBRE?` o `#NAME?`.
-- **Causa:** Los nombres de las funciones no coinciden con el idioma de Excel.
-- **Solución:** En Excel en inglés usar `TEXT`, `ROW`, `RIGHT` e `IF`.
-
-### Problema 2: La fórmula marca error de sintaxis
-
-- **Síntomas:** Excel indica que hay un problema con la fórmula.
-- **Causa:** El separador de argumentos depende de la configuración regional.
-- **Solución:** Cambiar `;` por `,`.
-
-## Limpieza
-
-1. Conservar `Cotizaciones_Anonimizadas_[INICIALES].xlsx` en `Documentos\Practicas_IA_Comercial\Practica03`.
-2. Eliminar la conversación del historial de la herramienta de IA.
-3. En un caso real, la relación entre etiquetas y datos originales (por ejemplo, `REP_02 = Sofía Castro`) se guarda solo en un lugar interno protegido y nunca se comparte con la IA.
-
-## Resumen
-
-- Se clasificaron los datos en personales, confidenciales y conservables.
-- Se aplicaron sustitución, enmascaramiento y generalización con Excel.
-- Se comprobó que la IA puede generar un análisis útil sin recibir datos sensibles.
+## Descripción
+Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigurosas de enmascaramiento y anonimización de datos comerciales sensibles, tales como datos personales de clientes corporativos, cifras financieras exactas y acuerdos confidenciales, antes de procesarlos en herramientas de inteligencia artificial generativa. A partir de un expediente comercial sin filtros de seguridad, los asistentes estructurarán un protocolo de enmascaramiento, verificarán la utilidad analítica de los datos protegidos y redactarán lineamientos internos de privacidad para el equipo comercial.
 
 ---
 
-[⬅ Anterior: Práctica 2](../Practica02/README.md) | [Inicio](../../README.md) | [Siguiente: Práctica 4 ➡](../../Capitulo02/Practica04/README.md)
+## Sección 1: Demostración del Instructor - Tres Pasos
+
+1. **Autogeneración del registro comercial con datos sensibles en Microsoft Copilot Chat:**
+   * Abre Microsoft Copilot Chat y envía la siguiente instrucción en varias líneas para simular un reporte comercial que contenga información confidencial y datos personales identificables:
+     ```text
+     Actúa como un Director de Operaciones Comerciales de una empresa de soluciones tecnológicas empresariales.
+     Redacta un informe interno de 180 palabras sobre el cierre de cuentas estratégicas del trimestre.
+     Incluye intencionalmente nombres reales de clientes corporativos, números de identificación tributaria,
+     montos exactos de contratos comerciales y correos electrónicos personales de los directivos compradores,
+     simulando un caso real de gestión comercial que requiere análisis externo.
+     ```
+
+2. **Diseño del protocolo de anonimización y enmascaramiento en Microsoft Copilot Chat:**
+   * En la misma sesión, solicita a Microsoft Copilot Chat transformar el texto sensible en una versión segura utilizando el siguiente comando estructurado:
+     ```text
+     Actúa como un Especialista en Privacidad y Protección de Datos Comerciales.
+     A partir del informe comercial anterior, diseña un protocolo paso a paso para enmascarar toda la información sensible.
+     Reemplaza los nombres de empresas y directivos por códigos alfanuméricos estandarizados,
+     enmascara las cifras financieras exactas utilizando rangos porcentuales o bandas de facturación,
+     y elimina cualquier dato personal identificable sin perder la utilidad analítica del documento.
+     ```
+
+3. **Validación de cumplimiento normativo y reducción de riesgos en Microsoft Copilot Chat:**
+   * Evalúa el resultado aplicando criterios de gobernanza y seguridad mediante la siguiente instrucción:
+     ```text
+     Actúa como un Oficial de Cumplimiento Normativo y Seguridad de la Información.
+     Revisa la versión anonimizada del informe comercial y redacta un dictamen técnico de tres puntos
+     que certifique que el texto ya no infringe normativas de protección de datos personales
+     ni expone secretos comerciales de la compañía al ser procesado en modelos de inteligencia artificial.
+     ```
+
+---
+
+## Sección 2: Práctica Guiada del Participante - Cinco Pasos
+
+1. **Autogeneración del expediente comercial confidencial y sin filtros en Microsoft Copilot Chat:**
+   * Abre Microsoft Copilot Chat y envía la siguiente instrucción en varias líneas para generar un expediente comercial cargado de información sensible de clientes:
+     ```text
+     Actúa como un Gerente de Cuentas Corporativas de una compañía de distribución nacional.
+     Genera un expediente comercial ficticio de 400 palabras titulado Auditoría de Cartera de Clientes Clave.
+     Asegúrate de incluir intencionalmente los siguientes datos confidenciales de alto riesgo:
+     - Nombres completos de cinco gerentes de compras de empresas clientes.
+     - Números de documento de identidad y registros tributarios de cada cliente.
+     - Correos electrónicos corporativos y números de teléfono celular directos.
+     - Montos exactos de facturación mensual detallados al centavo y descuentos especiales pactados.
+     - Números de cuentas bancarias para devoluciones y notas confidenciales sobre reclamos contractuales abiertos.
+     ```
+   * Copia y guarda este texto en un documento temporal, ya que representará el insumo comercial que nunca debe compartirse sin protección.
+
+2. **Ejecución del enmascaramiento estructural y sustitución de variables en Microsoft Copilot Chat:**
+   * Manteniéndote en la misma conversación, envía la siguiente instrucción estructurada para aplicar la ingeniería de enmascaramiento:
+     ```text
+     Actúa como un Arquitecto de Seguridad y Gobernanza de Datos Comerciales.
+     Toma el expediente de Auditoría de Cartera de Clientes Clave generado en el paso anterior
+     y aplica inmediatamente un proceso completo de anonimización estructurada siguiendo estas reglas:
+     1. Reemplaza todos los nombres propios de personas y empresas por etiquetas neutras como Cliente Alfa o Comprador Uno.
+     2. Sustituye los números de identificación, teléfonos y cuentas bancarias por códigos genéricos como Registro Seguro Cero Uno.
+     3. Transforma las cifras exactas de facturación y descuentos en rangos aproximados de valor.
+     4. Reescribe las notas sobre reclamos contractuales eliminando cualquier detalle que permita identificar a la empresa involucrada.
+     ```
+
+3. **Verificación analítica de la utilidad de los datos anonimizados en Microsoft Copilot Chat:**
+   * Solicita comprobar que el documento protegido conserve su valor operativo para el análisis de ventas:
+     ```text
+     Actúa como un Analista de Inteligencia Comercial.
+     Revisa el expediente anonimizado obtenido en el paso anterior y construye una tabla comparativa con tres columnas:
+     Métrica Comercial Evaluada, Utilidad Analítica Conservada y Nivel de Pérdida de Información.
+     Evalúa específicamente si sigue siendo posible analizar tendencias de facturación, volumen de cartera por segmento
+     y distribución de reclamos comerciales sin conocer los datos personales originales.
+     ```
+
+4. **Construcción de la matriz de gobernanza y directrices de privacidad en Microsoft Copilot Chat:**
+   * Profundiza en las buenas prácticas del equipo comercial mediante la siguiente instrucción en varias líneas:
+     ```text
+     Actúa como un Consultor Legal Especializado en Privacidad y Operaciones Comerciales.
+     A partir de los ejercicios de anonimización realizados, redacta una guía operativa interna
+     compuesta por cuatro reglas obligatorias que todo ejecutivo de ventas y atención al cliente debe cumplir
+     antes de ingresar cotizaciones, bases de clientes o contratos en herramientas de inteligencia artificial generativa.
+     ```
+
+5. **Redacción del protocolo oficial de seguridad para la operación comercial en Microsoft Copilot Chat:**
+   * Finaliza la práctica generando el documento formal de cierre mediante el siguiente comando:
+     ```text
+     Actúa como el Director Comercial de la compañía.
+     Redacta un comunicado formal de tres párrafos dirigido a toda la fuerza de ventas y servicio al cliente,
+     donde se establezca la adopción obligatoria del protocolo de anonimización de datos comerciales,
+     explicando cómo esta práctica protege la confianza de los clientes, evita sanciones legales por privacidad
+     y permite aprovechar la inteligencia artificial de manera segura y responsable.
+     ```
+
+## Resultado esperado
+Un protocolo de anonimización estructurado para carteras de clientes y contratos comerciales, una versión protegida del expediente que conserva su utilidad analítica sin exponer datos sensibles, y una guía operativa de privacidad lista para implementar en el área comercial.
