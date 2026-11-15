@@ -42,7 +42,7 @@ Preparar, para cada participante, un equipo con navegador actualizado, Microsoft
 | Windows 11 | Home, Pro o Enterprise | x64 | Plataforma base del curso; compatible según fabricante; pendiente de validar |
 | macOS | 14 o posterior | Apple silicon o Intel | Compatible según fabricante; no validado. Los atajos de teclado cambian (Cmd en lugar de Ctrl) |
 
-Las instrucciones usan Windows 11 y los nombres de menú de Microsoft Excel y Word en español. La Práctica 3 indica también los nombres de función en inglés.
+Las instrucciones usan Windows 11 y los nombres de menú de Microsoft Excel y Word en español. 
 
 # Software Requerido
 
@@ -84,7 +84,6 @@ Los servicios de IA son administrados y cambian sus modelos, funciones y límite
 | Nodos de n8n | Form Trigger, Basic LLM Chain, Google Gemini Chat Model, Structured Output Parser, Switch, Edit Fields, Extract from File, Aggregate, Convert to File, n8n Form | Prácticas 6 y 7 | Incluidos en n8n Cloud y Community ([documentación](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainllm/)) |
 | Credencial **Google Gemini(PaLM) Api** en n8n | Clave gratuita de Google AI Studio | Prácticas 6 y 7 | **Credentials > Create credential** ([documentación](https://docs.n8n.io/integrations/builtin/credentials/googleai/)) |
 | Nodo Gmail de n8n | Opcional | Práctica 6, opción B | **Sign in with Google** desde el nodo ([documentación](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gmail/)) |
-| Archivos de las prácticas | Versión 1.0 del repositorio | Prácticas 1 a 12 | Carpetas `CapituloNN/PracticaNN/recursos/` |
 
 ## Licencias, cuentas y permisos
 
@@ -107,8 +106,6 @@ Las cuentas y la clave de Google AI Studio son personales. No registrar contrase
 
 - Repositorio autorizado: [github.com/Netec-Mx/Custom-IA_GEN_ESSE_OC-AB-Priv-](https://github.com/Netec-Mx/Custom-IA_GEN_ESSE_OC-AB-Priv-) (botón **Code > Download ZIP**) o paquete ZIP entregado por el instructor.
 - Revisión: rama `main`, una vez integrados los cambios de `changes_course`.
-- Directorio de trabajo: `Documentos\Practicas_IA_Comercial\` con una subcarpeta por práctica (`Practica01` a `Practica12`).
-- Archivos de entrada: carpetas `recursos` de cada práctica.
 
 ## 2. Instalar o habilitar los componentes
 
@@ -135,14 +132,6 @@ Las cuentas y la clave de Google AI Studio son personales. No registrar contrase
 
 **Resultado esperado:** n8n abre el lienzo de flujos y la credencial queda guardada.
 
-### Carpetas de trabajo
-
-1. Descomprimir el ZIP del repositorio.
-2. Crear `Documentos\Practicas_IA_Comercial\` y, dentro, las carpetas `Practica01` a `Practica12`.
-3. Copiar a cada carpeta el contenido de `CapituloNN\PracticaNN\recursos` correspondiente.
-
-**Resultado esperado:** 12 carpetas con 22 archivos en total.
-
 ## 3. Preparar archivos de configuración
 
 No se requieren archivos de configuración. Los archivos de entrada están en las carpetas `recursos` y no deben modificarse antes de la práctica.
@@ -157,18 +146,9 @@ No se requieren variables de entorno: el curso no usa programación ni línea de
 
 | Parámetro | Valor o convención | Observaciones |
 |---|---|---|
-| Raíz de trabajo | `Documentos\Practicas_IA_Comercial\` | Una carpeta por práctica |
-| Nombre de entregables | `Nombre_[INICIALES].ext` | Ejemplo: `Matriz_Priorizacion_Procesos_LMR.xlsx` |
 | Datos | Ficticios o anonimizados | No cargar información real de clientes |
 | Separador de fórmulas | `;` (o `,` según la configuración regional) | Prácticas 1, 3, 4 y 8 |
 | Nombres de flujos en n8n | `P06 ...` y `P07 ...` con las iniciales del participante | Evita confusiones en instancias compartidas |
-
-## Estructura de carpetas
-
-```text
-Documentos\Practicas_IA_Comercial\
-├── Practica01\ ... Practica12\   Archivos de cada práctica y entregables
-```
 
 ## Recursos compartidos
 
@@ -182,7 +162,6 @@ No hay recursos compartidos entre participantes, salvo la instancia de n8n Commu
 | Varias prácticas estaban juntas en un mismo README | Un README por práctica (12 en total) | Ninguno |
 | Las prácticas requerían terminal, bash, Python, cURL y scripts, contrario al perfil "sin experiencia en programación" | Pasos con Word, Excel, PowerPoint, herramientas web y n8n sin código | Ninguno |
 | Las prácticas de n8n dependían de un servidor de IA simulado en Python y de una clave de pago de OpenAI | Modelo Gemini con clave gratuita de Google AI Studio y formulario de n8n como entrada | Ninguno |
-| Los archivos de entrada se generaban con scripts | 22 archivos listos para descargar en `recursos` | Ninguno |
 | El archivo de cotizaciones usaba nombres de personas públicas reales | Nombres, RFC, domicilios y dominios de correo ficticios (`.example`) | Ninguno |
 | El análisis de referencia de la práctica de Copilot tenía totales incorrectos (90,800 en lugar de la suma real) y atribuía mal un producto | Datos de Q1 2025 y Q1 2026 con valores de referencia recalculados | Ninguno |
 | El caso de objeción pedía "demostrar" que el competidor era más caro, pero con los datos dados era más barato | Costos del competidor completos (1,290 USD al mes) y cálculo verificable | Ninguno |
@@ -254,12 +233,11 @@ No aplica. El curso se valida en interfaces web con los procedimientos V-01 a V-
 - [ ] Cuentas gratuitas activas en ChatGPT, Copilot, Google (Gemini, NotebookLM y AI Studio) y Claude.
 - [ ] Acceso a n8n (prueba de n8n Cloud vigente o instancia Community) y credencial de Gemini guardada.
 - [ ] Dominios de las herramientas permitidos en la red del cliente.
-- [ ] 22 archivos de las prácticas descargados en `Documentos\Practicas_IA_Comercial\`.
 - [ ] Validaciones V-01 a V-08 aprobadas y registradas.
 
 # Resumen
 
-Para iniciar el curso, cada participante necesita un navegador actualizado, Word, Excel y PowerPoint, cuentas gratuitas en las cuatro plataformas de IA y en NotebookLM, acceso a n8n con una clave gratuita de Gemini y los archivos ficticios de las prácticas descargados. No se requiere programación ni instalación de lenguajes o herramientas de línea de comandos.
+Para iniciar el curso, cada participante necesita un navegador actualizado, Word, Excel y PowerPoint, cuentas gratuitas en las cuatro plataformas de IA y en NotebookLM y acceso a n8n con una clave gratuita de Gemini. No se requiere programación ni instalación de lenguajes o herramientas de línea de comandos.
 
 <a id="registro-validacion"></a>
 
