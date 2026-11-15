@@ -16,14 +16,14 @@
 | Fecha de última validación | 2026-11-09 (revisión del repositorio) |
 | Repositorio de laboratorios | [github.com/Netec-Mx/Custom-IA_GEN_ESSE_OC-AB-Priv-](https://github.com/Netec-Mx/Custom-IA_GEN_ESSE_OC-AB-Priv-) |
 | Rama y revisión analizada | `changes_course`, versión 1.0 |
-| Alcance revisado | 3 capítulos, 6 módulos, 12 prácticas, 22 archivos de recursos, README principal y Setup Guide |
+| Alcance revisado | 3 capítulos, 6 módulos, 12 prácticas, README principal y Setup Guide |
 | Modalidad del entorno | Web (servicios SaaS gratuitos) con aplicaciones de ofimática locales o en la web |
 
 [Inicio](README.md)
 
 # Objetivo
 
-Preparar, para cada participante, un equipo con navegador actualizado, Microsoft Word, Excel y PowerPoint (o equivalentes en la web), cuentas gratuitas activas en ChatGPT, Microsoft Copilot, Google (Gemini, NotebookLM y Google AI Studio) y Claude, y acceso a n8n con una credencial de un modelo de IA gratuito. También se descargan los archivos ficticios de las 12 prácticas en una carpeta local. El entorno se considera listo cuando las validaciones obligatorias de la sección [Validación del Entorno](#validacion-entorno) se aprueban con la cuenta de un participante. No se requiere programación ni línea de comandos.
+Preparar, para cada participante, un equipo con navegador actualizado, Microsoft Word, Excel y PowerPoint (o equivalentes en la web), cuentas gratuitas activas en ChatGPT, Microsoft Copilot, Google (Gemini, NotebookLM y Google AI Studio) y Claude, y acceso a n8n con una credencial de un modelo de IA gratuito. El entorno se considera listo cuando las validaciones obligatorias de la sección [Validación del Entorno](#validacion-entorno) se aprueban con la cuenta de un participante. No se requiere programación ni línea de comandos.
 
 # Requisitos de Hardware
 
