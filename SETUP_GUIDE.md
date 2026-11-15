@@ -134,7 +134,7 @@ Las cuentas y la clave de Google AI Studio son personales. No registrar contrase
 
 ## 3. Preparar archivos de configuración
 
-No se requieren archivos de configuración. Los archivos de entrada están en las carpetas `recursos` y no deben modificarse antes de la práctica.
+No se requieren archivos de configuración. 
 
 # Variables de Entorno
 
