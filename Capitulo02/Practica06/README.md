@@ -34,7 +34,7 @@ Los participantes utilizarán **n8n Cloud** y su asistente de inteligencia artif
    * El instructor muestra cómo la pantalla de n8n se llena automáticamente con los bloques conectados sin haber tenido que abrir ni configurar ningún nodo de forma manual.
 
 3. **Prueba inmediata escribiendo un mensaje:**
-   * El instructor abre el chat lateral, escribe una solicitud comercial normal (por ejemplo: *"Necesitamos cotizar urgentemente 100 licencias de software porque nuestra operación arranca la próxima semana"*), y muestra cómo la IA responde al instante con la prioridad, el resumen y el borrador de respuesta ya listos.
+   * El instructor abre el chat lateral, escribe una solicitud comercial normal *"Necesitamos cotizar urgentemente 100 licencias de software porque nuestra operación arranca la próxima semana"*, y muestra cómo la IA responde al instante con la prioridad, el resumen y el borrador de respuesta ya listos.
 
 ---
 
