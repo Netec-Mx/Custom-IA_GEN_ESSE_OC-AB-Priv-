@@ -68,4 +68,4 @@ Los participantes utilizarán **n8n Cloud** y su asistente de inteligencia artif
    * Revisa la ventana de conversación y observa cómo el sistema procesa tu mensaje de forma autónoma, entregando la prioridad comercial clasificada como **Alta**, el resumen ejecutivo de la necesidad del cliente y el borrador de respuesta listo para el ejecutivo de ventas.
 
 ## Resultado esperado
-Un flujo automatizado completo construido mediante el asistente de inteligencia artificial de n8n Cloud[cite: 3], capaz de recibir solicitudes comerciales mediante estructuras JSON, clasificarlas según su urgencia y generar resúmenes con borradores de respuesta automáticos.
+Un flujo automatizado completo construido mediante el asistente de inteligencia artificial de n8n Cloud, capaz de recibir solicitudes comerciales mediante estructuras JSON, clasificarlas según su urgencia y generar resúmenes con borradores de respuesta automáticos.
