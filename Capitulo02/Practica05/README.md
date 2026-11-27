@@ -11,6 +11,7 @@ Los participantes utilizarán Claude para diseñar instrucciones especializadas 
 
 1. **Diseño de un prompt maestro para prospección en frío en Claude:**
    * Abre Claude y envía la siguiente instrucción en varias líneas para generar mensajes de primer contacto altamente personalizados:
+
      ```text
      Actúa como un Especialista Senior en Desarrollo de Negocios B2B.
      Diseña un correo de prospección en frío dirigido al Gerente de Operaciones de una cadena de distribución retail.
@@ -21,6 +22,7 @@ Los participantes utilizarán Claude para diseñar instrucciones especializadas 
 
 2. **Estructuración de una agenda ejecutiva para reuniones de descubrimiento en Claude:**
    * En la misma sesión, solicita a Claude preparar la guía de conversación para la primera cita comercial:
+
      ```text
      Actúa como un Director Comercial Consultivo.
      Genera una estructura de reunión de descubrimiento de treinta minutos con un cliente potencial interesado en soluciones de automatización logística.
@@ -30,6 +32,7 @@ Los participantes utilizarán Claude para diseñar instrucciones especializadas 
 
 3. **Automatización del seguimiento comercial tras envío de propuesta en Claude:**
    * Evalúa cómo mantener activo el interés del prospecto sin sonar insistente:
+
      ```text
      Actúa como un Ejecutivo de Cuentas Corporativas.
      Redacta una secuencia de dos correos cortos de seguimiento comercial para un cliente que recibió una propuesta hace cinco días y aún no responde.
@@ -43,6 +46,7 @@ Los participantes utilizarán Claude para diseñar instrucciones especializadas 
 
 1. **Creación del perfil de cliente ideal y contexto comercial en Claude:**
    * Abre Claude y envía la siguiente instrucción en varias líneas para definir el escenario comercial sobre el cual trabajarás durante toda la práctica:
+
      ```text
      Actúa como un Estratega de Ventas Corporativas.
      Define el perfil comercial de una empresa ficticia proveedora de software de gestión de flotas vehiculares
@@ -53,6 +57,7 @@ Los participantes utilizarán Claude para diseñar instrucciones especializadas 
 
 2. **Generación de secuencia de prospección multicanal en Claude:**
    * En la misma conversación, envía la siguiente instrucción detallada para crear mensajes adaptados a distintos canales de contacto:
+
      ```text
      Actúa como un Especialista en Prospección Comercial Multicanal.
      Con base en el perfil de cliente ideal definido en el paso anterior, redacta dos piezas de contacto inicial:
@@ -63,6 +68,7 @@ Los participantes utilizarán Claude para diseñar instrucciones especializadas 
 
 3. **Preparación integral de una reunión de presentación comercial en Claude:**
    * Solicita a Claude estructurar el guion y los puntos clave para la cita con el prospecto mediante el siguiente comando:
+
      ```text
      Actúa como un Líder de Ventas Consultivas.
      Prepara un guion estructurado para nuestra primera reunión comercial con el Director de Logística de la empresa de transporte.
@@ -72,6 +78,7 @@ Los participantes utilizarán Claude para diseñar instrucciones especializadas 
 
 4. **Redacción del resumen ejecutivo de propuesta comercial en Claude:**
    * Envía la siguiente instrucción en varias líneas para transformar los acuerdos de la reunión en una oferta formal persuasiva:
+
      ```text
      Actúa como un Gerente de Cuentas Estratégicas.
      Redacta el resumen ejecutivo de una propuesta comercial formal dirigida al Director de Logística y al Gerente Financiero.
@@ -84,6 +91,7 @@ Los participantes utilizarán Claude para diseñar instrucciones especializadas 
 
 5. **Diseño de un sistema de seguimiento postpropuesta y cierre en Claude:**
    * Finaliza la práctica creando una matriz de seguimiento comercial en Claude mediante el siguiente comando:
+
      ```text
      Actúa como un Coordinador de Operaciones de Ventas.
      Diseña un plan de seguimiento comercial de tres semanas posterior al envío de la propuesta económica.

@@ -15,6 +15,7 @@ Los participantes utilizarán NotebookLM para crear y configurar una base de con
 
 2. **Consulta inteligente y extracción de políticas comerciales en NotebookLM:**
    * Utiliza la barra de chat y consulta de la plataforma para interactuar con las fuentes cargadas mediante la siguiente instrucción en varias líneas:
+
      ```text
      Actúa como un Auditor de Políticas Comerciales.
      Consulta las fuentes cargadas en el cuaderno y extrae las reglas exactas sobre descuentos máximos autorizados,
@@ -23,6 +24,7 @@ Los participantes utilizarán NotebookLM para crear y configurar una base de con
 
 3. **Generación automática de materiales de apoyo para preventas en NotebookLM:**
    * Solicita a la plataforma estructurar una guía rápida de objeciones y respuestas para el equipo comercial mediante el siguiente comando:
+
      ```text
      Actúa como un Director de Capacitación Comercial.
      A partir de las preguntas frecuentes y catálogos integrados en el cuaderno,
@@ -39,6 +41,7 @@ Los participantes utilizarán NotebookLM para crear y configurar una base de con
 
 2. **Ejecución de consultas analíticas avanzadas sobre el catálogo de productos en NotebookLM:**
    * Utiliza el panel de interacción y consulta del cuaderno para enviar la siguiente instrucción detallada en varias líneas:
+
      ```text
      Actúa como un Especialista en Inteligencia de Productos.
      Revisa las fuentes del cuaderno y genera una tabla comparativa de los tres principales servicios o productos del catálogo,
@@ -48,6 +51,7 @@ Los participantes utilizarán NotebookLM para crear y configurar una base de con
 
 3. **Extracción y validación cruzada de políticas comerciales y márgenes de descuento en NotebookLM:**
    * Envía la siguiente instrucción multilineal para verificar los límites de negociación permitidos para los ejecutivos:
+
      ```text
      Actúa como un Gerente de Administración y Finanzas Comerciales.
      Consulta la fuente de políticas comerciales dentro del cuaderno y redacta un memorando ejecutivo
@@ -57,6 +61,7 @@ Los participantes utilizarán NotebookLM para crear y configurar una base de con
 
 4. **Síntesis y creación de respuestas rápidas basadas en preguntas frecuentes en NotebookLM:**
    * Solicita a la plataforma construir una matriz de soporte operativo mediante el siguiente comando:
+
      ```text
      Actúa como un Supervisor de Atención al Cliente B2B.
      A partir de la fuente de preguntas frecuentes, elabora un guion de atención rápida para el equipo de preventas
@@ -65,6 +70,7 @@ Los participantes utilizarán NotebookLM para crear y configurar una base de con
 
 5. **Generación del documento consolidado de apoyo para el equipo de ventas en NotebookLM:**
    * Finaliza la práctica utilizando las herramientas de notas y resumen del cuaderno para unificar toda la información mediante la siguiente instrucción:
+
      ```text
      Actúa como un Director de Operaciones Comerciales.
      Consolida los hallazgos del catálogo, las políticas de descuento y las preguntas frecuentes

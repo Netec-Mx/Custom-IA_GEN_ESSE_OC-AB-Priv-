@@ -11,6 +11,7 @@ Los participantes utilizarán ChatGPT para diseñar un sistema automatizado de c
 
 1. **Consolidación de notas de ventas desestructuradas en ChatGPT:**
    * Abre ChatGPT y envía la siguiente instrucción en varias líneas para transformar notas dispersas de reuniones comerciales en un registro estructurado:
+
      ```text
      Actúa como un Coordinador de Operaciones Comerciales.
      Toma las siguientes notas desordenadas de tres reuniones de ventas de esta semana
@@ -23,6 +24,7 @@ Los participantes utilizarán ChatGPT para diseñar un sistema automatizado de c
 
 2. **Generación automática de resumen ejecutivo semanal en ChatGPT:**
    * En la misma sesión, solicita a ChatGPT redactar un informe gerencial a partir de la tabla anterior mediante el siguiente comando:
+
      ```text
      Actúa como un Director Regional de Ventas.
      Con base en la tabla de oportunidades comerciales generada anteriormente,
@@ -33,6 +35,7 @@ Los participantes utilizarán ChatGPT para diseñar un sistema automatizado de c
 
 3. **Creación de alertas y tareas de seguimiento comercial en ChatGPT:**
    * Evalúa cómo automatizar la asignación de tareas para el equipo comercial mediante la siguiente instrucción:
+
      ```text
      Actúa como un Analista de Productividad Comercial.
      Genera una lista de verificación operativa con tres tareas urgentes de seguimiento
@@ -46,6 +49,7 @@ Los participantes utilizarán ChatGPT para diseñar un sistema automatizado de c
 
 1. **Generación de la bitácora inicial de actividad comercial en ChatGPT:**
    * Abre ChatGPT y envía la siguiente instrucción en varias líneas para simular los registros brutos de actividad de un equipo de ventas durante una semana:
+
      ```text
      Actúa como un Supervisor de Ventas Corporativas.
      Genera una bitácora desestructurada de 350 palabras titulada Registro Semanal de Actividad Comercial,
@@ -56,6 +60,7 @@ Los participantes utilizarán ChatGPT para diseñar un sistema automatizado de c
 
 2. **Estructuración y limpieza de los datos generados en la misma sesión:**
    * En la misma conversación de ChatGPT donde se generó el texto anterior, envía la siguiente instrucción para transformar la bitácora informal en una base de datos limpia:
+
      ```text
      Actúa como un Especialista en Inteligencia de Negocios Comerciales.
      Utilizando estrictamente el texto del Registro Semanal de Actividad Comercial generado en el paso anterior,
@@ -66,6 +71,7 @@ Los participantes utilizarán ChatGPT para diseñar un sistema automatizado de c
 
 3. **Síntesis de indicadores y redacción del informe ejecutivo mensual en ChatGPT:**
    * Solicita al modelo construir el reporte gerencial consolidado a partir de la tabla obtenida mediante el siguiente comando en varias líneas:
+
      ```text
      Actúa como un Gerente Nacional de Operaciones Comerciales.
      A partir de la tabla estructurada del paso anterior, redacta un informe ejecutivo de tres párrafos
@@ -78,6 +84,7 @@ Los participantes utilizarán ChatGPT para diseñar un sistema automatizado de c
 
 4. **Generación automatizada de mensajes de seguimiento personalizado en ChatGPT:**
    * Envía la siguiente instrucción multilineal para producir los correos de reactivación basados en la misma sesión:
+
      ```text
      Actúa como un Ejecutivo Senior de Cuentas Corporativas.
      Identifica en la tabla estructurada del segundo paso las cuentas que presentan demoras o falta de respuesta
@@ -88,6 +95,7 @@ Los participantes utilizarán ChatGPT para diseñar un sistema automatizado de c
 
 5. **Diseño de la plantilla maestra de automatización de reportes en ChatGPT:**
    * Finaliza la práctica creando una instrucción reutilizable para estandarizar los reportes futuros del equipo mediante el siguiente comando:
+
      ```text
      Actúa como un Arquitecto de Procesos Comerciales.
      Diseña una plantilla maestra de prompt reutilizable que cualquier gerente de ventas pueda utilizar cada viernes

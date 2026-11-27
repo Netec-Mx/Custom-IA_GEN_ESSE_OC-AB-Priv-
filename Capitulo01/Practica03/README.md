@@ -11,6 +11,7 @@ Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigu
 
 1. **Autogeneración del registro comercial con datos sensibles en Microsoft Copilot Chat:**
    * Abre Microsoft Copilot Chat y envía la siguiente instrucción en varias líneas para simular un reporte comercial que contenga información confidencial y datos personales identificables:
+
      ```text
      Actúa como un Director de Operaciones Comerciales de una empresa de soluciones tecnológicas empresariales.
      Redacta un informe interno de 180 palabras sobre el cierre de cuentas estratégicas del trimestre.
@@ -21,6 +22,7 @@ Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigu
 
 2. **Diseño del protocolo de anonimización y enmascaramiento en Microsoft Copilot Chat:**
    * En la misma sesión, solicita a Microsoft Copilot Chat transformar el texto sensible en una versión segura utilizando el siguiente comando estructurado:
+
      ```text
      Actúa como un Especialista en Privacidad y Protección de Datos Comerciales.
      A partir del informe comercial anterior, diseña un protocolo paso a paso para enmascarar toda la información sensible.
@@ -31,6 +33,7 @@ Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigu
 
 3. **Validación de cumplimiento normativo y reducción de riesgos en Microsoft Copilot Chat:**
    * Evalúa el resultado aplicando criterios de gobernanza y seguridad mediante la siguiente instrucción:
+
      ```text
      Actúa como un Oficial de Cumplimiento Normativo y Seguridad de la Información.
      Revisa la versión anonimizada del informe comercial y redacta un dictamen técnico de tres puntos
@@ -44,6 +47,7 @@ Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigu
 
 1. **Autogeneración del expediente comercial confidencial y sin filtros en Microsoft Copilot Chat:**
    * Abre Microsoft Copilot Chat y envía la siguiente instrucción en varias líneas para generar un expediente comercial cargado de información sensible de clientes:
+
      ```text
      Actúa como un Gerente de Cuentas Corporativas de una compañía de distribución nacional.
      Genera un expediente comercial ficticio de 400 palabras titulado Auditoría de Cartera de Clientes Clave.
@@ -54,10 +58,12 @@ Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigu
      - Montos exactos de facturación mensual detallados al centavo y descuentos especiales pactados.
      - Números de cuentas bancarias para devoluciones y notas confidenciales sobre reclamos contractuales abiertos.
      ```
+
    * Copia y guarda este texto en un documento temporal, ya que representará el insumo comercial que nunca debe compartirse sin protección.
 
 2. **Ejecución del enmascaramiento estructural y sustitución de variables en Microsoft Copilot Chat:**
    * Manteniéndote en la misma conversación, envía la siguiente instrucción estructurada para aplicar la ingeniería de enmascaramiento:
+
      ```text
      Actúa como un Arquitecto de Seguridad y Gobernanza de Datos Comerciales.
      Toma el expediente de Auditoría de Cartera de Clientes Clave generado en el paso anterior
@@ -70,6 +76,7 @@ Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigu
 
 3. **Verificación analítica de la utilidad de los datos anonimizados en Microsoft Copilot Chat:**
    * Solicita comprobar que el documento protegido conserve su valor operativo para el análisis de ventas:
+
      ```text
      Actúa como un Analista de Inteligencia Comercial.
      Revisa el expediente anonimizado obtenido en el paso anterior y construye una tabla comparativa con tres columnas:
@@ -80,6 +87,7 @@ Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigu
 
 4. **Construcción de la matriz de gobernanza y directrices de privacidad en Microsoft Copilot Chat:**
    * Profundiza en las buenas prácticas del equipo comercial mediante la siguiente instrucción en varias líneas:
+
      ```text
      Actúa como un Consultor Legal Especializado en Privacidad y Operaciones Comerciales.
      A partir de los ejercicios de anonimización realizados, redacta una guía operativa interna
@@ -89,6 +97,7 @@ Los participantes utilizarán Microsoft Copilot Chat para aplicar técnicas rigu
 
 5. **Redacción del protocolo oficial de seguridad para la operación comercial en Microsoft Copilot Chat:**
    * Finaliza la práctica generando el documento formal de cierre mediante el siguiente comando:
+
      ```text
      Actúa como el Director Comercial de la compañía.
      Redacta un comunicado formal de tres párrafos dirigido a toda la fuerza de ventas y servicio al cliente,

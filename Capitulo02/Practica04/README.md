@@ -11,10 +11,13 @@ Los participantes utilizarán ChatGPT para aplicar los fundamentos de la ingenie
 
 1. **Demostración de prompt genérico versus prompt estructurado en ChatGPT:**
    * Abre ChatGPT y envía un prompt básico para observar una respuesta superficial:
+
      ```text
      Redacta un correo para un cliente enojado que se queja del retraso de su pedido.
      ```
+
    * A continuación, en la misma sesión, envía un prompt estructurado profesional:
+
      ```text
      Actúa como un Gerente de Experiencia al Cliente en una empresa de manufactura industrial.
      Redacta un correo de respuesta empático y profesional dirigido a un cliente corporativo clave
@@ -25,6 +28,7 @@ Los participantes utilizarán ChatGPT para aplicar los fundamentos de la ingenie
 
 2. **Aplicación de técnica de pocos ejemplos previos en ChatGPT:**
    * Solicita al modelo imitar un estilo comercial específico utilizando ejemplos dentro de la instrucción:
+
      ```text
      Actúa como un Especialista en Redacción Comercial B2B.
      Utiliza el siguiente estilo de ejemplo para redactar un mensaje corto de seguimiento:
@@ -34,6 +38,7 @@ Los participantes utilizarán ChatGPT para aplicar los fundamentos de la ingenie
 
 3. **Aplicación de razonamiento guiado paso a paso en ChatGPT:**
    * Evalúa la capacidad del modelo para estructurar argumentos de venta complejos:
+
      ```text
      Actúa como un Consultor de Negocios.
      Analiza paso a paso la estrategia de objeciones para un cliente que argumenta que nuestro servicio es costoso:
@@ -48,6 +53,7 @@ Los participantes utilizarán ChatGPT para aplicar los fundamentos de la ingenie
 
 1. **Creación de la base de conocimiento comercial inicial en ChatGPT:**
    * Abre ChatGPT y envía la siguiente instrucción en varias líneas para establecer el contexto de un servicio de consultoría tecnológica:
+
      ```text
      Actúa como el Director de Ventas de una empresa de servicios de transformación digital corporativa.
      Genera una descripción base de 150 palabras sobre nuestro servicio principal de migración a la nube,
@@ -57,6 +63,7 @@ Los participantes utilizarán ChatGPT para aplicar los fundamentos de la ingenie
 
 2. **Diseño de un prompt estructurado para propuestas comerciales en ChatGPT:**
    * Envía la siguiente instrucción detallada para redactar una propuesta de venta formal utilizando la descripción anterior:
+
      ```text
      Actúa como un Ejecutivo Senior de Cuentas Corporativas.
      Utilizando la descripción del servicio de migración a la nube generada en el paso anterior,
@@ -69,6 +76,7 @@ Los participantes utilizarán ChatGPT para aplicar los fundamentos de la ingenie
 
 3. **Aplicación de técnica de cadena de pensamiento para preparar reuniones de negociación en ChatGPT:**
    * Solicita al modelo estructurar la estrategia para una junta comercial compleja mediante el siguiente comando:
+
      ```text
      Actúa como un Estratega de Negociaciones Comerciales B2B.
      Ayúdame a preparar una reunión clave con un cliente corporativo que ha mostrado interés pero duda del presupuesto.
@@ -80,6 +88,7 @@ Los participantes utilizarán ChatGPT para aplicar los fundamentos de la ingenie
 
 4. **Automatización de respuestas a correos difíciles de clientes en ChatGPT:**
    * Envía la siguiente instrucción multilineal para resolver una queja compleja aplicando un tono empático y persuasivo:
+
      ```text
      Actúa como un Supervisor de Atención y Soporte Comercial.
      Redacta un correo de respuesta a un cliente que solicita la cancelación de su contrato de servicio
@@ -93,6 +102,7 @@ Los participantes utilizarán ChatGPT para aplicar los fundamentos de la ingenie
 
 5. **Consolidación de la guía de prompts para la fuerza comercial en ChatGPT:**
    * Finaliza la práctica generando una herramienta práctica para el equipo de ventas mediante el siguiente comando:
+
      ```text
      Actúa como un Coordinador de Capacitación Comercial.
      A partir de los ejercicios realizados en esta práctica,

@@ -13,6 +13,7 @@ Los participantes utilizarán la interfaz estándar de ChatGPT mediante prompts 
 
 1. **Autogeneración del conjunto de datos comerciales en el chat:**
    * Abre ChatGPT en tu plan gratuito y envía la siguiente instrucción para que el modelo cree los registros de ventas simulados de forma autónoma:
+
      ```text
      Actúa como un Administrador de Operaciones de Ventas.
      Genera de manera completamente autónoma un conjunto de datos estructurado en formato tabular de texto
@@ -23,6 +24,7 @@ Los participantes utilizarán la interfaz estándar de ChatGPT mediante prompts 
 
 2. **Ejecución de análisis de tendencias y estacionalidad mediante lenguaje natural:**
    * Solicita al modelo procesar el comportamiento de las ventas con el siguiente comando:
+
      ```text
      Actúa como un Analista de Inteligencia de Negocios.
      A partir de la tabla de transacciones generada anteriormente, calcula el crecimiento mensual de las ventas,
@@ -32,6 +34,7 @@ Los participantes utilizarán la interfaz estándar de ChatGPT mediante prompts 
 
 3. **Generación automática del reporte ejecutivo para la gerencia:**
    * Finaliza la demostración estructurando los hallazgos con la siguiente instrucción:
+
      ```text
      Actúa como un Director de Operaciones Comerciales.
      Con base en los cálculos analíticos anteriores, redacta un informe ejecutivo de tres párrafos
@@ -45,6 +48,7 @@ Los participantes utilizarán la interfaz estándar de ChatGPT mediante prompts 
 
 1. **Autogeneración del volumen transaccional de prueba en la sesión de chat:**
    * Abre una nueva conversación en ChatGPT y envía la siguiente instrucción para crear la base de datos de trabajo de forma completamente autónoma:
+
      ```text
      Actúa como un Ingeniero de Datos Comerciales.
      Genera de forma completamente autónoma un registro detallado de mil transacciones de venta corporativa
@@ -55,6 +59,7 @@ Los participantes utilizarán la interfaz estándar de ChatGPT mediante prompts 
 
 2. **Ejecución de consultas analíticas para la detección de tendencias de venta:**
    * Envía la siguiente instrucción en varias líneas para que el modelo procese el comportamiento temporal de los datos creados:
+
      ```text
      Actúa como un Analista Senior de Datos Comerciales.
      Utilizando el conjunto de datos simulado en el chat, analiza las tendencias de venta trimestrales,
@@ -64,6 +69,7 @@ Los participantes utilizarán la interfaz estándar de ChatGPT mediante prompts 
 
 3. **Segmentación de cuentas y detección de oportunidades de negocio:**
    * Solicita al modelo realizar una clasificación comercial mediante el siguiente comando:
+
      ```text
      Actúa como un Especialista en Estrategia Comercial B2B.
      Analiza la distribución de compras por cliente en los datos generados para segmentarlos
@@ -74,6 +80,7 @@ Los participantes utilizarán la interfaz estándar de ChatGPT mediante prompts 
 
 4. **Diseño de un cuadro visual de métricas y gráficos textuales de soporte:**
    * Pide la representación visual de los datos directamente en el chat utilizando formato estructurado mediante la siguiente instrucción:
+
      ```text
      Actúa como un Diseñador de Inteligencia Visual Comercial.
      Basado en los datos analizados, genera dos representaciones visuales utilizando texto estructurado y barras de caracteres:
@@ -84,6 +91,7 @@ Los participantes utilizarán la interfaz estándar de ChatGPT mediante prompts 
 
 5. **Consolidación y redacción del reporte ejecutivo final:**
    * Finaliza la práctica compilando todos los resultados en un informe gerencial mediante el siguiente comando:
+
      ```text
      Actúa como un Director Comercial Corporativo.
      Toma todos los hallazgos del análisis de datos, las tendencias detectadas y las oportunidades de negocio,

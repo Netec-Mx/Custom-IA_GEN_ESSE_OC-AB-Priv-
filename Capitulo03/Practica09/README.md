@@ -11,6 +11,7 @@ Los participantes utilizarán exclusivamente Copilot Chat para ejecutar un flujo
 
 1. **Análisis automático de métricas comerciales para Excel en Copilot Chat:**
    * Abre Copilot Chat y envía la siguiente instrucción en varias líneas para procesar una tabla de ventas y obtener fórmulas y conclusiones listas para Excel:
+
      ```text
      Actúa como un Analista Senior de Inteligencia Comercial y Especialista en Excel.
      Analiza los siguientes registros trimestrales de ventas regionales:
@@ -23,6 +24,7 @@ Los participantes utilizarán exclusivamente Copilot Chat para ejecutar un flujo
 
 2. **Generación de informe ejecutivo para Word a partir del análisis en Copilot Chat:**
    * En la misma sesión, solicita a Copilot Chat transformar los hallazgos anteriores en un documento corporativo mediante el siguiente comando:
+
      ```text
      Actúa como un Gerente Regional de Operaciones Comerciales.
      Con base en el análisis de cumplimiento anterior, redacta un informe ejecutivo de tres párrafos
@@ -33,6 +35,7 @@ Los participantes utilizarán exclusivamente Copilot Chat para ejecutar un flujo
 
 3. **Estructuración de infografía y diapositivas para PowerPoint en Copilot Chat:**
    * Finaliza la demostración solicitando el diseño conceptual de los materiales visuales mediante la siguiente instrucción:
+
      ```text
      Actúa como un Especialista en Comunicación Visual Corporativa.
      A partir del informe ejecutivo anterior, genera primero el esquema de bloques visuales y datos clave
@@ -47,6 +50,7 @@ Los participantes utilizarán exclusivamente Copilot Chat para ejecutar un flujo
 
 1. **Generación y análisis automático de base de datos comercial para Excel en Copilot Chat:**
    * Abre Copilot Chat y envía la siguiente instrucción en varias líneas para simular una base de ventas y obtener el análisis automático junto con sus fórmulas de Excel:
+
      ```text
      Actúa como un Analista de Datos Comerciales y Experto en Microsoft Excel.
      Genera una tabla de ventas semestrales con ocho ejecutivos de cuenta corporativos que incluya:
@@ -58,6 +62,7 @@ Los participantes utilizarán exclusivamente Copilot Chat para ejecutar un flujo
 
 2. **Redacción del informe ejecutivo estructurado para documento de Word en Copilot Chat:**
    * En la misma conversación, envía la siguiente instrucción para convertir los resultados de la tabla en un reporte gerencial listo para Word:
+
      ```text
      Actúa como un Director Nacional de Ventas Corporativas.
      Utilizando exclusivamente los resultados del análisis de ventas generado en el paso anterior,
@@ -68,6 +73,7 @@ Los participantes utilizarán exclusivamente Copilot Chat para ejecutar un flujo
 
 3. **Diseño del contenido y estructura visual de infografía comercial en Copilot Chat:**
    * Solicita a Copilot Chat sintetizar el informe en una pieza gráfica de alto impacto mediante el siguiente comando en varias líneas:
+
      ```text
      Actúa como un Diseñador de Información Comercial.
      Transforma los datos más relevantes del informe ejecutivo anterior en el guion completo de una infografía comercial.
@@ -81,6 +87,7 @@ Los participantes utilizarán exclusivamente Copilot Chat para ejecutar un flujo
 
 4. **Creación del guion y arquitectura de diapositivas para PowerPoint en Copilot Chat:**
    * Envía la siguiente instrucción multilineal para generar la presentación ejecutiva completa lista para trasladar a PowerPoint:
+
      ```text
      Actúa como un Consultor de Presentaciones Ejecutivas B2B.
      Con base en el informe de Word y la infografía diseñadas anteriormente,
@@ -94,6 +101,7 @@ Los participantes utilizarán exclusivamente Copilot Chat para ejecutar un flujo
 
 5. **Validación integral y paquete de transferencia ofimática en Copilot Chat:**
    * Finaliza la práctica verificando la coherencia numérica entre todos los entregables mediante el siguiente comando:
+
      ```text
      Actúa como un Auditor de Calidad en Operaciones Comerciales.
      Revisa todos los entregables generados en esta sesión para Excel, Word, la infografía y PowerPoint.

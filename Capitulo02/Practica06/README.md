@@ -24,6 +24,7 @@ Los participantes utilizarán **n8n Cloud** y su asistente de inteligencia artif
 
 1. **Creación automática del flujo mediante una orden directa:**
    * El instructor se ubica en la barra de chat del asistente (**What do you want to automate?**) y escribe un único comando maestro:
+
      ```text
      Crea un flujo automatizado completo que inicie con un chat de prueba para escribir una solicitud comercial,
      luego use inteligencia artificial para clasificar su prioridad (Alta, Media o Baja),
@@ -45,6 +46,7 @@ Los participantes utilizarán **n8n Cloud** y su asistente de inteligencia artif
 
 2. **Envío del prompt maestro para que la IA haga todo el trabajo:**
    * Copia y envía la siguiente instrucción detallada dentro del chat de la inteligencia artificial:
+
      ```text
      Construye un flujo automatizado de atención comercial de punta a punta que haga lo siguiente:
      1. Inicie con un nodo de Chat (Chat Trigger) para recibir solicitudes comerciales en texto normal.
@@ -60,6 +62,7 @@ Los participantes utilizarán **n8n Cloud** y su asistente de inteligencia artif
 4. **Apertura del chat de prueba para enviar una solicitud real:**
    * En la parte inferior o lateral de tu pantalla, haz clic en el botón de prueba o en **Open chat**.
    * Escribe y envía la siguiente solicitud comercial en lenguaje cotidiano (sin códigos ni formatos especiales):
+
      ```text
      Hola equipo, les escribo desde Industrias Metalmecánicas del Sur. Requerimos con extrema urgencia la cotización y despacho prioritario de trescientas válvulas de alta presión para nuestra línea de producción principal, ya que una falla imprevista detuvo nuestra operación esta mañana. Quedo atento, Carlos Mendoza.
      ```

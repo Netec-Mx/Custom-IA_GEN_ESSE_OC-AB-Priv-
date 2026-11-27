@@ -23,6 +23,7 @@ Los participantes utilizarán la funcionalidad de **Proyectos en Claude (Claude 
 
 1. **Autogeneración del expediente comercial integrado en Claude Projects:**
    * Abre tu proyecto en Claude y envía la siguiente instrucción para que el modelo cree de forma autónoma los documentos base:
+
      ```text
      Actúa como un Administrador de Operaciones Legales Comerciales.
      Genera de manera completamente autónoma un expediente comercial simulado que incluya cuatro textos cortos:
@@ -35,6 +36,7 @@ Los participantes utilizarán la funcionalidad de **Proyectos en Claude (Claude 
 
 2. **Auditoría de contradicciones y riesgos en el proyecto:**
    * Solicita al modelo revisar las fuentes autogeneradas mediante el siguiente comando:
+
      ```text
      Actúa como un Auditor de Riesgos Legales y Comerciales.
      Revisa el expediente comercial autogenerado en este proyecto y detecta si existen contradicciones directas
@@ -44,6 +46,7 @@ Los participantes utilizarán la funcionalidad de **Proyectos en Claude (Claude 
 
 3. **Generación del informe consolidado de control comercial:**
    * Finaliza la demostración estructurando el reporte gerencial con la siguiente instrucción:
+
      ```text
      Actúa como un Director de Operaciones Comerciales.
      Redacta un informe ejecutivo de control de dos párrafos dirigido al comité legal y de ventas,
@@ -57,6 +60,7 @@ Los participantes utilizarán la funcionalidad de **Proyectos en Claude (Claude 
 
 1. **Autogeneración del expediente comercial multicanal en el espacio de trabajo:**
    * Crea un nuevo proyecto en Claude titulado **Auditoría de Contratos B2B** y envía la siguiente instrucción para que la plataforma genere los textos simulados de forma autónoma:
+
      ```text
      Actúa como un Ingeniero de Documentación Comercial.
      Genera de manera completamente autónoma un expediente comercial compuesto por cuatro documentos de texto integrados:
@@ -69,6 +73,7 @@ Los participantes utilizarán la funcionalidad de **Proyectos en Claude (Claude 
 
 2. **Auditoría cruzada de inconsistencias y contradicciones normativas:**
    * Envía la siguiente instrucción para que Claude contraste de forma masiva los documentos autogenerados:
+
      ```text
      Actúa como un Auditor Jurídico Comercial.
      Realiza una auditoría cruzada de los cuatro documentos autogenerados en el proyecto y genera una tabla con tres columnas:
@@ -78,6 +83,7 @@ Los participantes utilizarán la funcionalidad de **Proyectos en Claude (Claude 
 
 3. **Mapeo de compromisos pendientes y obligaciones cruzadas:**
    * Solicita al modelo inventariar las tareas que quedaron sueltas utilizando el siguiente comando:
+
      ```text
      Actúa como un Administrador de Proyectos Comerciales.
      A partir de los correos y procedimientos generados en el expediente,
@@ -87,6 +93,7 @@ Los participantes utilizarán la funcionalidad de **Proyectos en Claude (Claude 
 
 4. **Diseño de recomendaciones de mitigación y redacción de adendas correctivas:**
    * Pide la redacción de propuestas de ajuste normativo utilizando la siguiente instrucción:
+
      ```text
      Actúa como un Especialista en Negociación y Redacción Contractual.
      Utilizando el contexto documental autogenerado en el proyecto, redacta el texto formal de una adenda correctiva para modificar el contrato,
@@ -96,6 +103,7 @@ Los participantes utilizarán la funcionalidad de **Proyectos en Claude (Claude 
 
 5. **Consolidación del informe ejecutivo de control comercial para la gerencia:**
    * Finaliza la práctica compilando todo el análisis en un informe directivo mediante el siguiente comando:
+
      ```text
      Actúa como un Director de Operaciones y Control Comercial.
      Redacta un informe ejecutivo consolidado titulado Auditoría de Riesgos y Cierre de Contrato,
